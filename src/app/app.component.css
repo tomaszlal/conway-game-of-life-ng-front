@@ -1,0 +1,49 @@
+.main {
+  background-color: darkslategray;
+  margin: 0px;
+  padding: 5px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px white solid;
+  border-radius: 5px;
+  background-color: rgb(100, 62, 62);
+  min-height: 50px;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 15px;
+
+  min-height: 400px;
+
+
+}
+
+.cell-black {
+  background-color: black;
+  border: 1px white solid;
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+.cell-white {
+  background-color: rgb(244, 244, 244);
+  border: 1px white solid;
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+
+.button{
+  margin: 5px;
+  padding: 5px;
+}
